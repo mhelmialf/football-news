@@ -15,7 +15,6 @@ def show_main(request):
     }
 
     return render(request, "main.html", context)
-# Create your views here.
 
 def create_news(request):
     form = NewsForm(request.POST or None)
