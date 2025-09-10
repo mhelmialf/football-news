@@ -31,14 +31,13 @@ SECRET_KEY = 'django-insecure-(h#qntb&yftwvh=lt&#(hn7$kq2wfeb6hlp5%o3qgh_y-d6kb#
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://muhammad-helmi41-footballnews.pbp.cs.ui.ac.id/"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhammad-helmi41-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://muhammad-helmi41-footballnews.pbp.cs.ui.ac.id/"
+    "https://muhammad-helmi41-footballnews.pbp.cs.ui.ac.id"
 ]
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
